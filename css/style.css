@@ -546,6 +546,7 @@
   margin-top: 24px;
 }
 
+.main-sec .table-cont,
 .main-sec .chart-container {
   width: 100%;
   border-radius: 10px;
@@ -809,14 +810,12 @@
   transition: all 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) !important;
 }
 
-.team-sec .main-card .widget-content .widget-heading,
-.applica-sec .main-card .widget-content .widget-heading {
+.widget-content .widget-heading {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
 }
 
-.team-sec .main-card .widget-content .widget-subheading,
-.applica-sec .main-card .widget-content .widget-subheading {
+.widget-content .widget-subheading {
   font-size: 14px;
   color: rgba(54, 102, 198, 0.6);
 }
@@ -831,8 +830,8 @@
   color: #010510;
 }
 
-.team-sec .main-card .badge,
-.applica-sec .main-card .badge {
+.table-cont .badge,
+.main-card .badge {
   color: #5684dfd3;
 }
 
